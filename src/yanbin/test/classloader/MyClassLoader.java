@@ -34,10 +34,4 @@ class MyClassLoader extends ClassLoader{
         return null;
     }
 
-
-//    public Class<?> loadMyClass(String path, String name) throws ClassNotFoundException {
-//        this.path = path;
-//        return findClass(name);
-//    }
-
 }
