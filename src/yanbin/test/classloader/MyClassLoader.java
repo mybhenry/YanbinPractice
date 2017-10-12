@@ -17,21 +17,19 @@ class MyClassLoader extends ClassLoader{
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
-        System.out.println("yanbin.test.classloader.MyClassLoaderImpl finding my class");
         try {
             File file = new File(path + "/"+name.replace(".","/") + ".class");
-            System.out.println(file.getAbsolutePath());
             InputStream ins = new FileInputStream(file);
             byte[] data = new byte[(int)file.length()];
             ins.read(data);
             Class clazz =  defineClass(name, data, 0, data.length);
-            System.out.println("yanbin.test.classloader.MyClassLoaderImpl findClass:"+clazz.getClassLoader());
             return clazz;
-
         }catch (Exception e) {
             e.printStackTrace();
+            ClassNotFoundException cnfe = new ClassNotFoundException();
+            cnfe.initCause(e);
+            throw cnfe;
         }
-        return null;
     }
 
 }
