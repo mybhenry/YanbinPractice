@@ -23,7 +23,7 @@ public class TestMain {
             @Override
             public void update(Observable o, Object arg) {
                 if(o != null && o instanceof Event){
-                    System.out.println("Event is updated. notifying remote system.");
+                    System.out.println("Event is updated.  notifying remote system.");
                 }
 
             }
