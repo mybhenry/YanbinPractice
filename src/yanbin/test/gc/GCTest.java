@@ -5,7 +5,7 @@ package yanbin.test.gc;
  */
 public class GCTest {
     public static void main(String[] args) {
-        gctest2();
+        gctest1();
     }
 
     public static void gctest2(){
