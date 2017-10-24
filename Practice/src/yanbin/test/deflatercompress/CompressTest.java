@@ -1,4 +1,4 @@
-package yanbin.test.deflatercompress;
+package yanbin.yanbin.test.deflatercompress;
 
 import java.io.*;
 import java.util.Base64;

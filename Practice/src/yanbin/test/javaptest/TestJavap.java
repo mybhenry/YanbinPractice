@@ -1,4 +1,4 @@
-package yanbin.test.javaptest;
+package yanbin.yanbin.test.javaptest;
 
 /**
  * Created by henrymbp on 13/10/17.

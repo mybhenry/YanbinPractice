@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="ClassLoaderAPI:jar">
+    <output-path>$PROJECT_DIR$/lib</output-path>
+    <root id="root">
+      <element id="archive" name="ClassLoaderAPI.jar">
+        <element id="module-output" name="ClassLoaderAPI" />
+      </element>
+    </root>
+  </artifact>
+</component>

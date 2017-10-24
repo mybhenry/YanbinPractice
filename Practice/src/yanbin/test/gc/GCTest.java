@@ -1,4 +1,4 @@
-package yanbin.test.gc;
+package test.gc;
 
 /**
  * Created by henrymbp on 14/10/17.

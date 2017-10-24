@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClassLoaderApp1:jar">
+    <output-path>$PROJECT_DIR$/extr_class/yanbin/test/classloadinghierarchy/container/apps/app1</output-path>
+    <root id="archive" name="App1.jar">
+      <element id="module-output" name="App1" />
+    </root>
+  </artifact>
+</component>
