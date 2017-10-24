@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/App1/App1.iml" filepath="$PROJECT_DIR$/App1/App1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/App2/App2.iml" filepath="$PROJECT_DIR$/App2/App2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassLoaderAPI/ClassLoaderAPI.iml" filepath="$PROJECT_DIR$/ClassLoaderAPI/ClassLoaderAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/YanbinPractice.iml" filepath="$PROJECT_DIR$/YanbinPractice.iml" />
     </modules>
   </component>
